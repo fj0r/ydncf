@@ -171,7 +171,7 @@ body {
     border: var(--border);
   }
   &.bottom {
-    border-bottom: 1px solid var(--fg);
+    border-bottom: var(--border);
   }
   &.wd {
     padding: 1em 4em 1em 4em;
@@ -277,7 +277,7 @@ figure {
 figcaption {
   text-align: right;
   font-size: 0.8em;
-  border-bottom: 0.2rem solid var(--fg);
+  border-bottom: var(--border);
   padding-bottom: 0.2rem;
 }
 img {
@@ -321,7 +321,7 @@ input[type="submit"] {
   font-weight: normal;
   background: var(--bg);
   color: var(--fg);
-  border: 0.1rem solid var(--fg);
+  border: var(--border);
   border-radius: var(--round);
   cursor: pointer;
 }
@@ -348,7 +348,7 @@ nav {
 }
 
 fieldset {
-  border: 0.1rem solid var(--fg);
+  border: var(--border);
 }
 label,
 legend {
@@ -376,7 +376,7 @@ select {
   font-size: 1rem;
   color: var(--fg);
   background-color: var(--bg);
-  border: 0.1rem solid var(--fg);
+  border: var(--border);
   font-family: Helvetica, Arial, sans-serif;
 }
 
