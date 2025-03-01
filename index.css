@@ -419,9 +419,6 @@ textarea {
     font-style: italic;
     opacity: 1;
   }
-  &:focus::placeholder {
-    color: var(--fg);
-  }
   &:focus {
     border-bottom: var(--border-width) solid var(--fg);
     /*transform: scaleX(1);*/
