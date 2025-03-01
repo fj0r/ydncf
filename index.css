@@ -422,7 +422,7 @@ textarea {
   &:focus {
     border-bottom: var(--border-width) solid var(--fg);
     /*transform: scaleX(1);*/
-    transition: all 1s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
   }
 }
 
